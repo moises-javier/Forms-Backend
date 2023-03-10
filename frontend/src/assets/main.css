@@ -1,0 +1,51 @@
+/* @import './base.css'; */
+
+.inp {
+  border: none;
+  padding: 5px 10px;
+  outline: none;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.inp:focus {
+  border-bottom: 1px solid #bcc2c7;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.4s 0.4s ease;
+  text-indent: -100%;
+  opacity: 1;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.flex-center-v {
+  display: flex;
+  align-items: center;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* *************************** Tool bar ***************************  */
+.tool-bar {
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  top: 0px;
+  right: -65px;
+}
